@@ -5,6 +5,7 @@ const Footer= React.lazy(()=>import('./components/Footer/Footer'))
 const Contact= React.lazy(()=>import('./components/Contact/Contact'))
 const Services= React.lazy(()=>import('./components/Services/Services'))
 const About= React.lazy(()=>import('./components/About/About'))
+const Products= React.lazy(()=>import('./components/Product/Product'))
 import './App.css'
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <div className='container_content'>
         <Home/>
         <About/>
+        <Products/>
         <Services/>
         <Contact/>
       </div>

@@ -6,7 +6,11 @@ const NavBar = () => {
   return (
     <div> <Navbar fixed='top' bg="light" variant="light">
       <Container className='d-flex justify-content-between'>
-        <Navbar.Brand href="#home"><img src={logo} height={'30px'} alt='Logo' /></Navbar.Brand>
+        <Navbar.Brand href="#home" className='brand_logo' ><img src={logo} height={'30px'} alt='Logo' />
+          <div>
+            Vision computer solution.
+          </div>
+        </Navbar.Brand>
         <Nav className="nav_items align-items-center d-none d-sm-flex">
           <Nav.Link href="#home">Home</Nav.Link>
           <Nav.Link href="#about">About Us</Nav.Link>

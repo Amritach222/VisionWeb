@@ -19,7 +19,9 @@ const Footer = () => {
                     <p>About us</p>
                     <div className='content'>
                         {aboutText.slice(0, 300) + '....'}
-                        <Button type='secondary' name={'Read more'} style='outlin' align='right'  />
+                        <a href="#about">
+                            <Button type='secondary' name={'Read more'} style='outlin' align='right' />
+                        </a>
                     </div>
                 </div>
                 <div className="mid">

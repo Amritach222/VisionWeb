@@ -1,6 +1,7 @@
 .services{
     display: grid;
     grid-template-columns: 1fr 1fr ;
+    column-gap: 20px;
     padding: 10px 20px;
 }
 .services_right_content{

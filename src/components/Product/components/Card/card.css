@@ -1,0 +1,21 @@
+.product_card{
+    height: 350px;
+    width: 250px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+.card_top{
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    height: 50%;
+    background-color: var(--global-color-primary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:20px;
+}
+.card_bottom{
+    padding: 10px;
+
+}

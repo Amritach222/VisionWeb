@@ -1,0 +1,28 @@
+
+.product_top{
+    padding: 10px 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    column-gap: 20px;
+}
+.product_top_right_image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.product_bottom{
+    background-color: var(--global-color-primary-hover);
+    padding: 20px 30px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.product_bottom > *{
+    margin:10px;
+    text-align: center;
+}
+@media only screen and (max-width: 768px){
+    .product_top{
+      grid-template-columns: 1fr;
+    }
+  }
