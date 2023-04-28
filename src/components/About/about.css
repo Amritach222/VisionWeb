@@ -1,4 +1,33 @@
 .about{
     display: grid;
     grid-template-columns: 1fr 1fr ;
+    padding: 10px 20px;
+    column-gap: 20px;
 }
+.about_left_image_container{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    background-color: var(--global-color-primary-hover);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+.contact_btn{
+    border: 1px solid var(--global-color-primary);
+    color: var(--global-color-primary);
+    border-radius: 5px;
+    padding: 5px;
+    text-decoration: none;
+}
+.contact_btn:hover{
+    border: 1px solid var(--global-color-primary-hover);
+    color: var(--global-color-primary-hover);
+}
+@media only screen and (max-width: 768px){
+    .about{
+      grid-template-columns: 1fr;
+    }
+  }
