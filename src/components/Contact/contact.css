@@ -1,0 +1,57 @@
+.contact {
+  background-color: var(--global-color-primary);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 10px 20px;
+  color: white;
+  margin-bottom: 1px;
+}
+.message_inputs {
+  display: flex;
+  margin: 5px 0;
+  flex-direction: column;
+  width: 100%;
+}
+.contact_right_heading {
+  text-align: center;
+}
+.message_inputs > label {
+  font-weight: 500;
+}
+.message_inputs > input {
+  border: 1px solid var(--global-color-primary);
+  outline: none;
+  height: 40px;
+  padding: 0 5px;
+  width: 100%;
+  border-radius: 5px;
+}
+.message_inputs > input:hover {
+  border: 1px solid var(--global-color-secondary);
+}
+.message_inputs > textarea {
+  border: 1px solid var(--global-color-primary);
+  outline: none;
+  border-radius: 5px;
+  padding: 5px;
+}
+.message_inputs > textarea:hover {
+  border: 1px solid var(--global-color-secondary);
+}
+.message_input_name {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10px;
+}
+.message_input_name :first-child {
+  margin-right: 20px;
+}
+.google_location{
+    margin-top: auto;
+    margin-bottom: 0;
+}
+@media only screen and (max-width: 768px) {
+  .contact {
+    grid-template-columns: 1fr;
+  }
+}

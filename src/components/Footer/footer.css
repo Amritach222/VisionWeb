@@ -1,0 +1,30 @@
+.footer{
+    background-color: var(--global-color-primary);
+    color: white;
+    padding: 10px;
+}
+.footer_top{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    flex-wrap: wrap;
+}
+.footer_top > *{
+    flex-grow: 1;
+    flex-basis: 0;
+}
+.footer_top > div >p{
+    font-size: 20px;
+    font-weight: 600px;
+}
+@media only screen and (max-width: 600px){
+    .footer_top{
+        flex-direction: column;
+    }
+}
+.footer_bottom{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}

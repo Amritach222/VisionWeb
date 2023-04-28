@@ -1,0 +1,29 @@
+.primary{
+    cursor: pointer;
+    background-color: var(--global-color-primary);
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.primary:hover{
+    background-color: var(--global-color-primary-hover);
+}
+.secondary{
+    cursor: pointer;
+    width: fit-content;
+    background-color: var(--global-color-secondary);
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.secondary:hover{
+    background-color: var(--global-color-secondary-hover);
+}
+.outline{
+    border: 2px solid var(--global-color-secondary);
+    color:var(--global-color-secondary);
+    background-color: transparent;
+    font-weight: 500;
+}
+.btn_right{
+   margin-left: auto;
+   margin-right: 0;
+}

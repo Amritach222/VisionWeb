@@ -1,0 +1,10 @@
+.carousel_image{
+    object-fit: cover;
+    height:calc(100vh - 100px);
+    width:100%;
+}
+.carousel-indicators >button{
+    height: 20px !important;
+    width: 20px !important;
+    border-radius: 50%;
+}
